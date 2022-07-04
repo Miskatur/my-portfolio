@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+
 }
 
 h1 {
@@ -13,15 +14,17 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 120px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 50px;
 }
 
 .half-width img {
-    width: 80%;
+    width: 100%;
 }
 
 .link-button {
@@ -36,4 +39,16 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.pick-me {
+    color: rgb(133, 74, 156);
+}
+
+.mid-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 60px;
+
 }
